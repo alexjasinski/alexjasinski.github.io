@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport",content="width=device-width",initial-scale=1>
+	<title>Assignment Solution for Module 2</title>
+<style>
+	* {
+		box-sizing: border-box;
+	
+	}
+	.flex-parent {
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+	.row {
+		width: 100%;
+	}
+	.flex-container {
+		position: relative;
+		display: inline;
+		grid-gap: 1rem;
+		grid-template-columns: 600px 600px 600px;
+		container-type: inline-size;
+		overflow: revert-layer;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	title {
+		color: black;
+		text-align: center;
+	}
+	h1 {
+		color: black;
+		text-align: center;
+		position: relative;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		margin-bottom: 25px;
+	}
+	h2 {
+		position: absolute;
+		top: 0;
+		margin: 0;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	#box {
+		background-color: gray;
+		padding: 50px 15px 15px 15px;
+		margin: 10px;
+		border: 3px solid black;
+		position: relative;
+		height: 170px;
+		width: 450px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		overflow: auto;
+		display: inline-flex;
+		box-sizing: border-box;
+		margin-right: auto;
+		margin-left: 70px;
+	}
+	#box2 {
+		background-color: pink;
+		color: black;
+		width: 150px;
+		position: absolute;
+		right:0;
+		margin-top:0px;
+		height: 40px;
+		border-bottom: 3px solid black;
+		border-left: 3px solid black;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	#box3 {
+		background-color: red;
+		color: black;
+		width: 150px;
+		position: absolute;
+		right:0;
+		margin-top:0;
+		height: 40px;
+		border-bottom: 3px solid black;
+		border-left: 3px solid black;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	#box4 {
+		background-color: yellow;
+		color: black;
+		width: 150px;
+		position: absolute;
+		right:0;
+		margin-top:0;
+		height: 40px;
+		border-bottom: 3px solid black;
+		border-left: 3px solid black;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+@media (min-width: 1200px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+	float: flex;
+	display: inline;
+}
+.col-lg-1 {
+	width: 50%;
+}
+.col-lg-2 {
+	width: 50%;
+}
+.col-lg-3 {
+	width: 50%;
+}
 
+@media (min-width: 950px) and (max-width: 1199px) {
+	.col-md-1, .col-md-2, .col-md-3 {
+	float: left;
+	display: inline;
+}
+.col-md-1 {
+	width: 50%;
+}
+.col-md-2 {
+	width: 50%;
+}
+.col-md-3 {
+	width: 50%;
+}
+
+</style>
+</head>
+	<body>
+	<div class="flex-container">
+	<h1>Our Menu</h1>
+	<div></div>
+	<div></div>
+	<div class="row">
+		<div class="col-lg-1 col-md-1"><section id="box">
+		<h2 id=box2><p style="text-align: center; margin: 0;">Chicken</h2>
+		<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div></p></div>
+	</section>
+		<div class="col-lg-2 col-md-2"><section id="box">
+		<h2 id=box3><p style="text-align: center; margin: 0; color: white;">Beef</h2>
+		<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div></p></div>
+	</section>
+		<div class="col-lg-3 col-md-3"><section id="box">
+		<h2 id=box4><p style="text-align: center; margin: 0;">Sushi</h2>
+		<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div></p></div>
+	</section>
+</div>
+	</div>
+</body>
+</html>
